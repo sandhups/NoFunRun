@@ -529,7 +529,7 @@ namespace RadicalForge.Blockout
         /// <param name="asset2">Seccond Asset name to try (no extension)</param>
         public static void PingAssetInProjectWindow(string asset1, string asset2)
         {
-            EditorApplication.ExecuteMenuItem("Window/Project");
+            EditorApplication.ExecuteMenuItem("Window/Windows/Project");
 
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
 
